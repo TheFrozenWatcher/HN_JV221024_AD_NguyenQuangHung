@@ -1,0 +1,19 @@
+/* Tổng hợp CSS */
+@import url(button.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(layout.css);
+@import url(nav.css);
+@import url(main-content.css);
+
+body {
+  font-family: "Times New Roman", Times, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}

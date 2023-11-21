@@ -1,0 +1,22 @@
+/* CSS Nav */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.nav-home {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 14px;
+}
+.nav-item-list {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  font-weight: 200;
+}
+.nav-item:hover {
+  cursor: pointer;
+  color: rgb(42, 255, 255);
+}

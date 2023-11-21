@@ -1,0 +1,26 @@
+/* CSS header */
+.header {
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
+  align-items: center;
+  padding: 5px 14px;
+}
+.phone-container {
+  display: flex;
+  gap: 10px;
+}
+.phone-no {
+  font-weight: bold;
+}
+
+.icon-list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+/* CSS footer */
+.footer {
+  margin: 20px 0px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+
+.wrapper {
+  padding: 14px;
+  display: grid;
+  grid-template-columns: repeat(4, 1r);
+  grid-template-rows: 1r;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.grid-container1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row: 2;
+  width: 200px;
+}
+.footer-item-tittle {
+  font-weight: bold;
+  font-size: 22px;
+}
+.footer-item:hover {
+  cursor: pointer;
+}
+.grid-container2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row: 2;
+  width: 200px;
+}
+.grid-container3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row: 2;
+  width: 200px;
+}
+.contact-email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.contact-email:hover {
+  cursor: pointer;
+}
+.phone-no:hover {
+  cursor: pointer;
+}
+.grid-container4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row: 2;
+  width: 200px;
+}
+.icon-tag {
+}
+
+.collection:hover {
+  cursor: pointer;
+}
+
+.ad-1 {
+  padding-left: 50%;
+  padding-top: 30%;
+}
+.ad-2 {
+  padding-left: 20%;
+  padding-top: 10%;
+}
+.ad-3 {
+  padding-left: 10%;
+  padding-top: 10%;
+}
